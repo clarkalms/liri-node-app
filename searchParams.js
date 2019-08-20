@@ -5,7 +5,7 @@ let bandsInTownSearch = require("./bandsInTownSearch");
 let omdbSearch = require("./omdbSearch");
 
 var searchParams = function() {
-    fs.readFile("./random.txt", "utf8", function (err, data) {
+    fs.readFile("./defaultSearch.txt", "utf8", function (err, data) {
         if (err) {
             throw err;
         }

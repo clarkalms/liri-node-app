@@ -14,6 +14,6 @@ if (operation == 'spotify-search') {
   bandsInTownSearch(userInput);
 } else if (operation == 'omdb-search') {
   omdbSearch(userInput);
-} else if (operation == 'search-params') {
+} else if (operation == 'search-random') {
   searchParams();
 }
